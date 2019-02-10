@@ -1,0 +1,166 @@
+.App-header {
+  text-align: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Mitr', sans-serif;
+
+  align-items: center;
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Header {
+  background-color: rgba(250, 250, 250, 0.5);
+  width: 100vw;
+  height: 65px;
+  position: fixed;
+  z-index: 100;
+  font-family: 'Mitr', sans-serif;
+}
+
+.out {
+  background-color: rgba(250, 250, 250, 0.95);
+}
+
+.HeaderContainer {
+  position: relative;
+}
+
+.logoHeader {
+  height: 120px;
+  left: 60px;
+  position: absolute;
+}
+
+.OptionContainer {
+  width: auto;
+  height: 100%;
+  display: inline-block;
+}
+
+.Option {
+  float: right;
+  font-weight: bold;
+  text-align: center;
+  line-height: 65px;
+  padding: 0px 20px;
+  height: 100%;
+  color: rgb(41, 41, 41);
+}
+
+.Option:hover {
+  color: rgb(164,158,93);
+  cursor: pointer;
+}
+
+/* Carousel */
+.CarouselContainer {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.imageContainer {
+  width: 300vw;
+  transition: transform 2s ease-in-out;
+}
+
+.Carousel {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* background-color: black; */
+}
+
+.CarouselImage {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Information */
+.Container {
+  display: inline-block;
+  max-width: 900px;
+  color: black;
+}
+
+h1 {
+  font-family: 'Mitr', sans-serif;
+  margin-top: 80px;
+}
+
+.Information table {
+  margin: 50px auto;
+}
+
+.Information table td {
+  font-family: 'Mitr', sans-serif;
+  text-align: left;
+  padding-bottom: 20px;
+  max-width: 600px;
+}
+
+.TopicTable {
+  /* font-weight: bold; */
+  vertical-align: top;
+  padding-right: 25px;
+  color: rgb(134,128,53);
+}
+
+.active {
+  color: rgb(164,158,93);
+
+}
+
+.Plan table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.gridTable {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-gap: 10px 50px;
+  margin: 50px 0;
+}
+
+.planImage {
+  width: 400px;
+  height: 230px;
+  margin-right: 50px;
+}
+
+.last {
+  margin-right: 0;
+}
+
+.Location {
+}
+
+.MapContainer {
+  width: 850px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 1920px){
+  .CarouselImage {
+    height: 1000px;
+    }
+} 

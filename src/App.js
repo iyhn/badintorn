@@ -87,7 +87,7 @@ class App extends Component {
         <section>
           <div id="informationContainer" className="Information Container">
             <h1 className="">ข้อมูลโครงการ</h1>
-            <div>
+            <div style={{ overflow: 'hidden', padding: '0 10px' }}>
               <div className="colT">
                 <p>ชื่อโครงการ</p>
               </div>
@@ -142,50 +142,57 @@ class App extends Component {
             <div className="gridContainer">
               <div>
                 <div>
-                  <img id='1' onClick={() => console.log(document.getElementById('1').getBoundingClientRect())} src={Image[0]} className="planImage" />
+                  <img id='1' src={Image[0]} className="planImage" />
                 </div>
                 <div>
                   <h3>บ้านเดี่ยวชั้นเดียว</h3>
                   <div className="gridTable">
-                    <div>
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td>พื้นที่ใช้สอย</td>
-                            <td>59 ตร.ม.</td>
-                          </tr>
-                          <tr>
-                            <td>ห้องนอน</td>
-                            <td>2</td>
-                          </tr>
-                          <tr>
-                            <td>ห้องครัว</td>
-                            <td>1</td>
-                          </tr>
-                          <tr>
-                            <td>ห้องรับแขก</td>
-                            <td>1</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <div style={{padding:'0 10px'}}>
+                      <div className="colT">
+                        <p>พื้นที่ใช้สอย</p>
+                      </div>
+                      <div className="colD">
+                        <p>59 ตร.ม.</p>
+                      </div>
+                      <div className="colT">
+                        <p>ห้องนอน</p>
+                      </div>
+                      <div className="colD">
+                        <p>2 ห้อง</p>
+                      </div>
+                      <div className="colT">
+                        <p>ห้องครัว</p>
+                      </div>
+                      <div className="colD">
+                        <p>1 ห้อง</p>
+                      </div>
+                      <div className="colT">
+                        <p>ห้องรับแขก</p>
+                      </div>
+                      <div className="colD">
+                        <p>1 ห้อง</p>
+                      </div>
                     </div>
-                    <div>
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td>ที่ดิน</td>
-                            <td>70 ตร.วา</td>
-                          </tr>
-                          <tr>
-                            <td>ห้องน้ำ</td>
-                            <td>1</td>
-                          </tr>
-                          <tr>
-                            <td>ที่จอดรถ</td>
-                            <td>2</td>
-                          </tr>
-                        </tbody>
-                      </table>
+
+                    <div style={{padding:'0 10px'}}>
+                      <div className="colT">
+                        <p>ที่ดิน</p>
+                      </div>
+                      <div className="colD">
+                        <p>70 ตร.วา</p>
+                      </div>
+                      <div className="colT">
+                        <p>ห้องน้ำ</p>
+                      </div>
+                      <div className="colD">
+                        <p>1 ห้อง</p>
+                      </div>
+                      <div className="colT">
+                        <p>ที่จอดรถ</p>
+                      </div>
+                      <div className="colD">
+                        <p>2 ห้อง</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -198,45 +205,51 @@ class App extends Component {
                 <div>
                   <h3>บ้านเดี่ยว 2 ชั้น</h3>
                   <div className="gridTable">
-                    <div>
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td>พื้นที่ใช้สอย</td>
-                            <td>114 ตร.ม.</td>
-                          </tr>
-                          <tr>
-                            <td>ห้องนอน</td>
-                            <td>3</td>
-                          </tr>
-                          <tr>
-                            <td>ห้องครัว</td>
-                            <td>1</td>
-                          </tr>
-                          <tr>
-                            <td>ห้องรับแขก</td>
-                            <td>1</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <div style={{padding:'0 10px'}}>
+                      <div className="colT">
+                        <p>พื้นที่ใช้สอย</p>
+                      </div>
+                      <div className="colD">
+                        <p>114 ตร.ม.</p>
+                      </div>
+                      <div className="colT">
+                        <p>ห้องนอน</p>
+                      </div>
+                      <div className="colD">
+                        <p>3 ห้อง</p>
+                      </div>
+                      <div className="colT">
+                        <p>ห้องครัว</p>
+                      </div>
+                      <div className="colD">
+                        <p>1 ห้อง</p>
+                      </div>
+                      <div className="colT">
+                        <p>ห้องรับแขก</p>
+                      </div>
+                      <div className="colD">
+                        <p>1 ห้อง</p>
+                      </div>
                     </div>
-                    <div>
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td>ที่ดิน</td>
-                            <td>50 ตร.วา</td>
-                          </tr>
-                          <tr>
-                            <td>ห้องน้ำ</td>
-                            <td>2</td>
-                          </tr>
-                          <tr>
-                            <td>ที่จอดรถ</td>
-                            <td>2</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <div style={{padding:'0 10px'}}>
+                      <div className="colT">
+                        <p>ที่ดิน</p>
+                      </div>
+                      <div className="colD">
+                        <p>50 ตร.วา</p>
+                      </div>
+                      <div className="colT">
+                        <p>ห้องน้ำ</p>
+                      </div>
+                      <div className="colD">
+                        <p>2 ห้อง</p>
+                      </div>
+                      <div className="colT">
+                        <p>ที่จอดรถ</p>
+                      </div>
+                      <div className="colD">
+                        <p>2 ห้อง</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -259,7 +272,7 @@ class App extends Component {
           </div>
         </section>
 
-      </div>
+      </div >
 
     );
   }
